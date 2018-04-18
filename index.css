@@ -1,5 +1,96 @@
 body {
-  margin: 0;
+  background-color: #eeeeee;
+  text-align: center;
+  margin: auto;
   padding: 0;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #ffffff;
+}
+
+.dateDisplay {
+  float: right;
+  font-size: 1.3em;
+  padding: 10px 10px 0 10px;
+  color: black;
+}
+
+a {
+  color: #ffffff;
+}
+
+form {
+  color: #000000;
+}
+
+h1 {
+  color: black;
+}
+
+.frequentWordsTitle {
+  color: black;
+}
+
+table {
+  width:70%;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+td {
+  padding: 10px 10px 10px 10px;
+}
+
+tr {
+  background-color: navy;
+}
+tr:nth-child(even) {
+  background-color: #D0D5F1;
+  color: black;
+}
+
+.headline {
+  font-weight: bold;
+}
+
+.source {
+  font-size: 0.8em;
   font-family: sans-serif;
+  width: 200px;
+}
+
+p {
+  color: black;
+}
+
+ul {
+    list-style: none;
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+
+li {
+  font-size: 1.2em;
+    display: inline;
+    border-width: 1px 1px 0 1px;
+    border-color: black;
+    margin: 0 5px 0 0;
+}
+
+.frequentWords {
+  color: black;
+  display: grid;
+}
+
+li a {
+    color: black;
+    padding: 0 10px;
+}
+
+.selected {
+  background-color: #941751;
+  color: #ffffff;
 }
