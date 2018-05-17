@@ -14,4 +14,4 @@ News API:
 https://newsapi.org
 
 Link to app on Firebase:
-https://media-crunch.firebaseapp.com
+https://media-krunch.firebaseapp.com
